@@ -1,0 +1,22 @@
+hash: a8580cc088b47ac0ebb47b265f71153ea899ab5421bd98e2ee826cf5c9233cd2
+updated: 2016-10-11T02:37:45.496886002+09:00
+imports:
+- name: github.com/armon/go-radix
+  version: 4239b77079c7b5d1243b7b4736304ce8ddb6f0f2
+- name: github.com/aws/aws-sdk-go
+  version: c0d7d3282e4c14991a4814de7eae4774e388de61
+  subpackages:
+  - aws
+  - aws/session
+  - service/ecr
+- name: github.com/bgentry/speakeasy
+  version: a1ccbf2c40dfc8ce514b5c5c6e6d1429ea6880da
+- name: github.com/mattn/go-isatty
+  version: 66b8e73f3f5cda9f96b69efd03dd3d7fc4a5cdb8
+- name: github.com/mitchellh/cli
+  version: fcf521421aa29bde1d93b6920dfce826d7932208
+- name: golang.org/x/sys
+  version: 8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9
+  subpackages:
+  - unix
+testImports: []
