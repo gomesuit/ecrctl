@@ -17,6 +17,9 @@ func main() {
 		"repos": func() (cli.Command, error) {
 			return &ReposCommand{}, nil
 		},
+		"images": func() (cli.Command, error) {
+			return &ImagesCommand{}, nil
+		},
 	}
 
 	exitStatus, err := c.Run()
